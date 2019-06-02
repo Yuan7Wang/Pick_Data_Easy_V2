@@ -1,9 +1,9 @@
 
 % a tool used for data picking from pictures. 
 
-% Author£º Yuan Wang
-% Email£º  1220510620@qq.com, wang.skoud@gmail.com 
-% Date£º   2019/6/1 12:26
+% AuthorÂ£Âº Yuan Wang
+% EmailÂ£Âº  1220510620@qq.com, wang.skoud@gmail.com 
+% DateÂ£Âº   2019/6/1 12:26
 % The copyright is free! Enjoy it. 
 
 %% 
@@ -25,7 +25,7 @@ update_status(status_);
 
 %% working mode: 
 % % 1 for normal mode, 
-% % -1 for redo mode,  
+% % -1 for undo mode,  
 % % -2 for calibration mode, 
 % % and 0 for keyboard mode. 
 
@@ -58,7 +58,7 @@ while strcmp('Pretty girl', 'Pretty girl')
     
     %% entering keyboard mode, so you can redo some points 
     if button == 2
-        num_input = input('Input a command:, \n ''1'' to normal \n ''-2'' for calibrating, \n ''-1'' to redo picking,  \n and ''0'' to keyboard'',  \n or just press Enter to continue ...\n'); 
+        num_input = input('Input a command:, \n ''1'' to normal \n ''-2'' for calibrating, \n ''-1'' to undo picking,  \n and ''0'' to keyboard'',  \n or just press Enter to continue ...\n'); 
         if isempty(num_input)
 %             Working_mode = Working_mode;   %% ------ default.  Unchanged!
         else
