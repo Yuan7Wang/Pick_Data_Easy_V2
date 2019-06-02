@@ -5,6 +5,8 @@ You can run the test_pick_data_easy_V2.m file as a demo directly, or you can rea
 
 ## Specify a picture with data of your interest. 
 
+Here, the '1.bmp' file is simply an example. You can use any format as long as MATLAB imread.m function support, such as *.jpg, *.bmp and etc.. 
+
 ```
 pic_name = './1.bmp';
 the_coordinates_you_picked = pick_data_easy_V2(pic_name); 
