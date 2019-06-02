@@ -6,8 +6,8 @@ This is a tool based on MATLAB for picking data points out of a chart. Cartesian
 Here, the '1.bmp' file is simply an example. You can use any format as long as MATLAB imread.m function support, such as *.jpg, *.bmp and etc.. 
 
 Some basic instructions: 
-* Use the left button of your mouse to pick of undo pick a coordinate on the figure.  
-* Use the middle button of your mouse to enter keyboard mode, where you can use 1 to enter normal mode, and -1 to undo mode, -2 to calibration.
+* Use the left button of your mouse to pick or undo pick a coordinate on the figure.  
+* Use the middle button of your mouse to enter keyboard mode, where you can use 1 to enter normal mode, and -1 to undo mode, -2 to calibration. Remember ot press the 'ENTER' button on your keyboard when you are done with the input to continue. 
 *  Use the right button of your mouse to exit the coordinate picking process when you are done. It will ask you twice before it really exits. 
 
 The first four coordinates you picked is for calibration. 
